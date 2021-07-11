@@ -18,6 +18,9 @@
 # Vendor blobs
 $(call inherit-product, vendor/samsung/sdm845-common/sdm845-common-vendor.mk)
 
+# Fonts
+TARGET_INCLUDE_CUSTOM_FONTS := false
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
